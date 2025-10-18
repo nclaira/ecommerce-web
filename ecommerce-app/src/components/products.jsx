@@ -3,7 +3,7 @@ function Products(){
 
   const products=[
     {
-      image:"./src/assets/headphone.jpg",
+      image:"./src/assets/headphones.jpg",
       name:"Wireless Headphone",
       price:"$39"
     },
