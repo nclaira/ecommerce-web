@@ -11,7 +11,7 @@ function Navbar(){
             <div className="flex flex-between gap-12">
                 <Link to='/'>Home</Link>
                 <Link to='/about'>About</Link>
-                <Link to='/servise'>Products</Link>
+                <Link to='/products'>Products</Link>
                 <Link to='/contact'>Contact</Link>
             </div>
 
