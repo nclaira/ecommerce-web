@@ -8,7 +8,7 @@ function Navbar(){
         <nav className="flex flex-between gap-[450px] px-32">
 
             <div>
-                <h1>E-commerce</h1>
+                <h1 className="text-xl font-bold">MyShop</h1>
             </div>
             <div className="flex flex-between gap-12">
                 <Link to='/'>Home</Link>
