@@ -1,29 +1,10 @@
-// function About() {
-//   return (
-//     <section className="container mx-auto px-4 py-10">
-//       <h2 className="text-3xl font-bold text-[#128B47] mb-4">About BrightBuy Shop</h2>
-//       <p className="text-gray-700 leading-relaxed">
-//         BrightBuy Shop is a modern online store offering hand-picked products for every lifestyle. 
-//         Our mission is to make shopping simple, affordable, and enjoyable for everyone.
-//       </p>
-//       <h3 className="text-2xl font-semibold mt-8 mb-3">Why Choose Us?</h3>
-//       <ul className="list-disc ml-6 text-gray-600 space-y-1">
-//         <li>High-quality products</li>
-//         <li>Affordable prices</li>
-//         <li>Fast and reliable support</li>
-//       </ul>
-//     </section>
-//   );
-// }
-// export default About
-
 function About() {
   return (
     <div className="p-8 bg-gray-100 min-h-screen">
       <h1 className="text-4xl font-bold mb-8 text-center">About Us</h1>
 
       
-      <div className="max-w-5xl mx-auto bg-white shadow-md rounded-lg p-8 mb-12">
+      <div className="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-8 mb-12">
         <h2 className="text-2xl font-semibold mb-4 text-green-700">Who We Are</h2>
         <p className="text-gray-700 leading-relaxed mb-4">
           At <strong>BrightBuy Shop</strong>, we’re passionate about bringing you the best in
@@ -32,7 +13,7 @@ function About() {
           style and comfort.
         </p>
         <p className="text-gray-700 leading-relaxed mb-4">
-          Our mission is to make shopping simple, enjoyable, and accessible for everyone combining
+          Our mission is to make shopping simple, enjoyable, and accessible for everyone — combining
           functionality, creativity, and affordability. Whether you're looking for the latest
           gadgets or stylish everyday wear, we’ve got you covered.
         </p>
@@ -40,7 +21,7 @@ function About() {
 
       
 
-      <div className="max-w-5xl mx-auto bg-white shadow-md rounded-lg p-8">
+      <div className="max-w-xl mx-auto bg-white shadow-md rounded-lg p-8">
         <h2 className="text-2xl font-semibold mb-6 text-green-700 text-center">Why Choose Us</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition">

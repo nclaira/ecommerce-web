@@ -1,16 +1,59 @@
-# React + Vite
+# 🏥 Hospital App / E-commerce Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **React + Vite + Tailwind CSS** web application built to showcase a modern, responsive, and fast website design.  
+It includes multiple pages such as **Home, About, Contact, Products**, and **Footer** with smooth navigation and reusable components.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Project Overview
 
-## React Compiler
+This web app demonstrates:
+- Clean and modern UI with **Tailwind CSS** styling.
+- Fast build and deployment using **Vite**.
+- Routing between pages using **React Router DOM**.
+- Organized component-based structure.
+- Ready for deployment on **Vercel**.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📁 Folder Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ecommerce-web/
+│
+└── ecommerce-app/
+├── dist/ # Production build output (after npm run build)
+├── node_modules/ # Installed dependencies
+├── public/ # Public assets (favicon, images, etc.)
+├── src/ # Source code
+│ ├── assets/ # Static assets (images, videos)
+│ ├── components/ # React components
+│ │ ├── about.jsx
+│ │ ├── contact.jsx
+│ │ ├── footer.jsx
+│ │ ├── home.jsx
+│ │ ├── navbar.jsx
+│ │ └── products.jsx
+│ ├── App.css
+│ ├── App.jsx
+│ ├── index.css
+│ └── main.jsx
+├── .gitignore # Files/folders ignored by Git
+├── eslint.config.js # ESLint configuration
+├── index.html # Main HTML template
+├── package.json # Project dependencies and scripts
+├── tailwind.config.js # Tailwind CSS configuration
+├── vite.config.js # Vite configuration
+├── vercel.json # Deployment configuration for Vercel
+└── README.md # Project documentation (this file)
+
+
+---
+
+## 🧩 Technologies Used
+
+- **React 19**
+- **Vite 7**
+- **Tailwind CSS 4**
+- **React Router DOM 7**
+- **ESLint**
+- **Vercel** (for deployment)
