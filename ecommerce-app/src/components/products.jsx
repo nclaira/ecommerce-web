@@ -50,7 +50,12 @@ function Products(){
       price:"$19.99"
     } 
     
-  ]
+  ];
+
+  // Event handler for adding to cart
+  const handleAddToCart = (productName) => {
+    console.log(`Added ${productName} to cart`);
+  };
 
   
 
@@ -69,8 +74,11 @@ function Products(){
                   <div className="p-6">
                     <h2 className="text-2xl font-semibold mb-2">{products.name}</h2>
                     <p className="text-gray-600">{products.price}</p>
-                    </div>
-                    </div>
+                    <button onClick={() => handleAddToCart(product.name)} className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
               )
             )}
             </div>
