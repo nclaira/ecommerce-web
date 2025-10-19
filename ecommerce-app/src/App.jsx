@@ -6,6 +6,7 @@ import Navbar from './components/navbar'
 import About from './components/about'
 import Products from './components/products'
 import Contact from './components/contact'
+import Footer from './components/footer'
 
 function App() {
   
@@ -13,13 +14,16 @@ function App() {
     <nav>
 
     <Router>
-      <Navbar/>   
+      <Navbar/> 
+        
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/products" element={<Products />} />
         <Route path="/contact" element={<Contact />} /> 
       </Routes>
+
+      <Footer/>
     </Router>
       
     </nav>
