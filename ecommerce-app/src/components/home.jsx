@@ -69,7 +69,11 @@ function Home(){
         <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-16 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 items-center">
           <div className="text-left bg-gray-300 px-4 sm:px-6 md:px-10 py-8 sm:py-10 rounded-2xl">
             <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#128B47] mb-3 sm:mb-4">Welcome to BrightBuy Shop</h1>
-            <p className="text-gray-700 text-sm sm:text-base mb-5 sm:mb-6">Your one-stop store for quality fashion, electronics, and accessories.</p>
+            <p className="text-gray-700 text-sm sm:text-base mb-5 sm:mb-6">Your one-stop store for quality fashion, electronics, and accessories.
+              At BrightBuy Shop, we believe in offering our customers the best shopping experience, with products carefully selected for quality, 
+              durability, and style. Whether you’re updating your wardrobe, upgrading your gadgets, or looking for the perfect gift, we have 
+              something for everyone. Discover amazing deals, explore our latest collections, and enjoy shopping from the comfort of your home.
+            </p>
 
             <Link
               to="/about"

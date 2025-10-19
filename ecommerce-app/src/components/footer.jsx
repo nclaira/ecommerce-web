@@ -28,7 +28,7 @@ function Footer() {
         <div>
           <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4 text-green-500 text-center md:text-left">Contact Us</h3>
           <ul className="space-y-1.5 sm:space-y-2 text-gray-900 text-sm sm:text-base text-center md:text-left">
-            <li>Email: info@yuukicreators.com</li>
+            <li>Email: info@brightbuyshop.com</li>
             <li>Phone: +250 788 123 456</li>
             <li>Address: Kigali, Rwanda</li>
           </ul>
