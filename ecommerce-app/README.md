@@ -1,4 +1,7 @@
-# 🏥 Hospital App / E-commerce Web
+# E-commerce Web
+
+![grid](src/assets/screenshoot1.png)
+
 
 This project is a **React + Vite + Tailwind CSS** web application built to showcase a modern, responsive, and fast website design.  
 It includes multiple pages such as **Home, About, Contact, Products**, and **Footer** with smooth navigation and reusable components.
