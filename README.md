@@ -1,7 +1,6 @@
 # E-commerce Web
-
-![alt text](public/images/screenshoot1.png)
-![alt text](public/images/screenshoot2.png)
+![alt text](ecommerce-app/public/images/screenshoot1.png)
+![alt text](ecommerce-app/public/images/screenshoot2.png)
 
 This project is a **React + Vite + Tailwind CSS** web application built to showcase a modern, responsive, and fast website design.  
 It includes multiple pages such as **Home, About, Contact, Products**, and **Footer** with smooth navigation and reusable components.
