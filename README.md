@@ -63,4 +63,5 @@ This web app demonstrates:
 
 ## screenshots
 
+![alt text](ecommerce-app/public/images/home-page.png)
 ![alt text](ecommerce-app/public/images/products-page.png)
