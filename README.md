@@ -59,4 +59,8 @@ This web app demonstrates:
 - **Tailwind CSS 4**
 - **React Router DOM 7**
 - **ESLint**
-- **Vercel** (for deployment)
+- **Vercel** (for deployment),  diployed link:https://ecommerce-web-l7f4.vercel.app/
+
+## screenshots
+
+![alt text](ecommerce-app/public/images/products-page.png)
