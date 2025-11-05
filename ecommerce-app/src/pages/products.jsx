@@ -16,8 +16,8 @@ function Products() {
     { id: 6, name: "Wallet", price: "24,000rwf", category: "Accessories", image: "/images/wallet.jpg" },
     { id: 7, name: "Laptop", price: "899,000rwf", category: "Electronics", image: "/images/laptop.jpg" },
     { id: 8, name: "T-Shirt", price: "15,000rwf", category: "Fashion", image: "/images/T-shirt.jpg" },
-    { id: 9, name: "Speaker", price: "49,000rwf", category: "Electronics", image: "./src/assets/speaker.jpg" },
-    { id: 10, name: "Canva Bag", price: "19,000rwf", category: "Fashion", image: "./src/assets/bag.jpg" },
+    { id: 9, name: "Speaker", price: "49,000rwf", category: "Electronics", image: "/images/speaker.jpg" },
+    { id: 10, name: "Canva Bag", price: "19,000rwf", category: "Fashion", image: "/images/bag.jpg" },
   ];
 
   // Get unique categories from products
