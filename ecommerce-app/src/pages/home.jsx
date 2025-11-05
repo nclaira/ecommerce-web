@@ -17,6 +17,7 @@ function Home() {
   return (
     <div>
       {/* Hero Section */}
+      
       <section className="w-full min-h-screen flex items-center">
         <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-16 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 items-center">
           <div className="text-left bg-gray-300 px-4 sm:px-6 md:px-10 py-8 sm:py-10 rounded-2xl">
