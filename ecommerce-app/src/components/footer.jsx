@@ -18,8 +18,8 @@ function Footer() {
           <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4 text-green-500 text-center md:text-left">Quick Links</h3>
           <ul className="space-y-2 text-white text-center md:text-left">
             <li><Link to="/" className="hover:text-green-600 transition">Home</Link></li>
-            <li><Link to="/about" className="hover:text-green-600 transition">About</Link></li>
             <li><Link to="/products" className="hover:text-green-600 transition">Products</Link></li>
+            <li><Link to="/about" className="hover:text-green-600 transition">About</Link></li>
             <li><Link to="/contact" className="hover:text-green-600 transition">Contact</Link></li>
           </ul>
         </div>

@@ -24,8 +24,8 @@ function Navbar(){
 
                 <div className="hidden md:flex items-center gap-8">
                     <Link to='/' className="text-white hover:text-green-700">Home</Link>
-                    <Link to='/about' className="text-white hover:text-green-700">About</Link>
                     <Link to='/products' className="text-white hover:text-green-700">Products</Link>
+                    <Link to='/about' className="text-white hover:text-green-700">About</Link>
                     <Link to='/contact' className="text-white hover:text-green-700">Contact</Link>
                 </div>
             </div>

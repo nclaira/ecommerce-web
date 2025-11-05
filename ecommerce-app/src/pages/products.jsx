@@ -8,14 +8,14 @@ function Products() {
 
   // add product data with their categories
   const products = [
-    { id: 1, name: "Wireless Headphone", price: "39,000rwf", category: "Electronics", image: "./src/assets/headphones.jpg" },
-    { id: 2, name: "Smart Watch", price: "123,000rwf", category: "Electronics", image: "./src/assets/watch.jpg" },
-    { id: 3, name: "Jacket", price: "59,000rwf", category: "Fashion", image: "./src/assets/jacket.jpg" },
-    { id: 4, name: "Sneakers", price: "69,000rwf", category: "Fashion", image: "./src/assets/sneakers.jpg" },
-    { id: 5, name: "Sunglasses", price: "29,000rwf", category: "Accessories", image: "./src/assets/sunglasses.jpg" },
-    { id: 6, name: "Wallet", price: "24,000rwf", category: "Accessories", image: "./src/assets/wallet.jpg" },
-    { id: 7, name: "Laptop", price: "899,000rwf", category: "Electronics", image: "./src/assets/laptop.jpg" },
-    { id: 8, name: "T-Shirt", price: "15,000rwf", category: "Fashion", image: "./src/assets/T-shirt.jpg" },
+    { id: 1, name: "Wireless Headphone", price: "39,000rwf", category: "Electronics", image: "/images/headphones.jpg" },
+    { id: 2, name: "Smart Watch", price: "123,000rwf", category: "Electronics", image: "/images/watch.jpg" },
+    { id: 3, name: "Jacket", price: "59,000rwf", category: "Fashion", image: "/images/jacket.jpg" },
+    { id: 4, name: "Sneakers", price: "69,000rwf", category: "Fashion", image: "/images/sneakers.jpg" },
+    { id: 5, name: "Sunglasses", price: "29,000rwf", category: "Accessories", image: "/images/sunglasses.jpg" },
+    { id: 6, name: "Wallet", price: "24,000rwf", category: "Accessories", image: "/images/wallet.jpg" },
+    { id: 7, name: "Laptop", price: "899,000rwf", category: "Electronics", image: "/images/laptop.jpg" },
+    { id: 8, name: "T-Shirt", price: "15,000rwf", category: "Fashion", image: "/images/T-shirt.jpg" },
     { id: 9, name: "Speaker", price: "49,000rwf", category: "Electronics", image: "./src/assets/speaker.jpg" },
     { id: 10, name: "Canva Bag", price: "19,000rwf", category: "Fashion", image: "./src/assets/bag.jpg" },
   ];

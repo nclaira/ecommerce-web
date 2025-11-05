@@ -1,23 +1,23 @@
 import { Link } from 'react-router-dom';
-import bkg2 from '../assets/bkg2.jpg';
+import bkg2 from '/images/bkg2.jpg';
 import ProductCard from '../components/productCard';
 
 function Home() {
   const products = [
-    { id: 1, name: "Wireless Headphone", price: "39,000rwf", category: "Accessories", image: "./src/assets/headphones.jpg" },
-    { id: 2, name: "Smart Watch", price: "123,000rwf", category: "Accessories", image: "./src/assets/watch.jpg" },
-    { id: 3, name: "Jacket", price: "59,000rwf", category: "Fashion", image: "./src/assets/jacket.jpg" },
-    { id: 4, name: "Sneakers", price: "69,000rwf", category: "Fashion", image: "./src/assets/sneakers.jpg" },
-    { id: 5, name: "Sunglasses", price: "29,000rwf", category: "Accessories", image: "./src/assets/sunglasses.jpg" },
-    { id: 6, name: "Wallet", price: "24,000rwf", category: "Accessories", image: "./src/assets/wallet.jpg" },
-    { id: 7, name: "Speaker", price: "49,000rwf", category: "Electronics", image: "./src/assets/speaker.jpg" },
-    { id: 8, name: "Canva Bag", price: "19,000rwf", category: "Fashion", image: "./src/assets/bag.jpg" },
+    { id: 1, name: "Wireless Headphone", price: "39,000rwf", category: "Accessories", image: "/images/headphones.jpg" },
+    { id: 2, name: "Smart Watch", price: "123,000rwf", category: "Accessories", image: "/images/watch.jpg" },
+    { id: 3, name: "Jacket", price: "59,000rwf", category: "Fashion", image: "/images/jacket.jpg" },
+    { id: 4, name: "Sneakers", price: "69,000rwf", category: "Fashion", image: "/images/sneakers.jpg" },
+    { id: 5, name: "Sunglasses", price: "29,000rwf", category: "Accessories", image: "/images/sunglasses.jpg" },
+    { id: 6, name: "Wallet", price: "24,000rwf", category: "Accessories", image: "./images/wallet.jpg" },
+    { id: 7, name: "Speaker", price: "49,000rwf", category: "Electronics", image: "/images/speaker.jpg" },
+    { id: 8, name: "Canva Bag", price: "19,000rwf", category: "Fashion", image: "/images/bag.jpg" },
   ];
 
   return (
     <div>
       {/* Hero Section */}
-      
+
       <section className="w-full min-h-screen flex items-center">
         <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-16 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 items-center">
           <div className="text-left bg-gray-300 px-4 sm:px-6 md:px-10 py-8 sm:py-10 rounded-2xl">
